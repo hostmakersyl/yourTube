@@ -5,6 +5,7 @@
     require_once "includes/classes/Video.php";
     require_once "includes/classes/VideoGrid.php";
     require_once "includes/classes/VideoGridItems.php";
+    require_once "includes/classes/SubscriptionProvider.php";
 
     //session_destroy();
     $usernameLogedIn = User::isLoggedIn() ? $_SESSION["userLogedIn"] : "";

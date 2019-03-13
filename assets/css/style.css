@@ -503,6 +503,7 @@ color: #000;
 }
 
 .videoGridItem {
+    height: 200px;
     margin-right: 4px;
     margin-bottom: 24px;
 }
@@ -571,4 +572,15 @@ color: #000;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+.videoSection .videoGridHeader {
+    display: flex;
+    margin: 10px 0;
+    border: 1px solid #e8e8e8;
+    padding-bottom: 10px;
+}
+
+.videoSection .videoGridHeader div{
+    flex: 1;
 }
